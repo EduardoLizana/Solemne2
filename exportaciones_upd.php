@@ -13,7 +13,17 @@
 <?php 
 include('menu.php');
 ?>
-SELECCIONAR
+    <form method="post" action="accform/accActualizar.php">
+    <br>
+    <br>
+    Nombre:<input type="text" name="snombre" id="snombre"><br><br>
+    Total USD:<input type="Integer" name="ntotalusd" id="ntotalusd"><br><br>
+    Año:<input type="Integer" name="nano" id="nano"><br><br>
+    
+    <input type="submit" value="Actualizar">
+</form>
+
+
 </body>
 </html>
 

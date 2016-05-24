@@ -13,7 +13,21 @@
 <?php 
 include('menu.php');
 ?>
-AGREGAR
+
+    <form method="post" action="accform/accAgregar.php.php">
+    <br>
+    <br>
+    Nombre:<input type="text" name="snombre" id="snombre"><br><br>
+    Total USD:<input type="Integer" name="ntotalusd" id="ntotalusd"><br><br>
+    Año:<input type="Integer" name="nano" id="nano"><br><br>
+    
+    <input type="submit" value="Agregar">
+</form>
+
+    
+    
+ 
 </body>
 </html>
+
 
